@@ -25,7 +25,7 @@ bool isUnique(string s)
 int main ()
 {
 	string test1 = "i am ixmike";
-	if (isUnique(test1))
+	if (!isUnique(test1))
 	{
 		cout << "Test1 Passed" << endl;
 	}
