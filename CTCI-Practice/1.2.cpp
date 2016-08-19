@@ -24,7 +24,7 @@ string reverseString2(string s)
 	string reversed = "";
 	for(int i = 0; i < length; i++)
 	{
-		reversed.push_back(s[i]);
+		reversed.push_back(s[length - i]);
 	}
 	return reversed;
 }
