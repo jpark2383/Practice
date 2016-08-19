@@ -50,4 +50,5 @@ int main ()
 	{
 		cout << "Test3 Failed" << endl;
 	}
+	return 0;
 }
