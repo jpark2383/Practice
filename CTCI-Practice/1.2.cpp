@@ -4,7 +4,7 @@
 
 using namespace std;
 
-//O(n) time and O(1) space
+//O(n) runtime and O(1) space
 string reverseString1(string s)
 {
 	int length = s.length()
@@ -17,7 +17,7 @@ string reverseString1(string s)
 	return s;
 }
 
-//O(n) time and O(n) space
+//O(n) runtime and O(n) space
 string reverseString2(string s)
 {
 	int length = s.length();
