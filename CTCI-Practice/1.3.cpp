@@ -3,6 +3,8 @@
 #include <string.h>
 
 using namespace std;
+
+//O(N) runtime O(N) space
 bool isPermutation(string s1, string s2)
 {
 	if(s1.length() != s2.length())
