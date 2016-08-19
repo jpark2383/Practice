@@ -4,6 +4,7 @@
 
 using namespace std;
 
+//O(n) time and O(1) space
 bool isUnique(string s)
 {
 	bool letters[256];
