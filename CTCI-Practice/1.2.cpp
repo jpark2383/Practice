@@ -4,6 +4,8 @@
 
 using namespace std;
 
+/* Reverses a string */
+
 //O(n) runtime and O(1) space
 string reverseString1(string s)
 {
