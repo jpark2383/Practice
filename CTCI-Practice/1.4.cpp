@@ -4,6 +4,8 @@
 
 using namespace std;
 
+/* Replace spaces in a string with %20 */
+
 void replaceSpaces (char *s, int len)
 {
 	int numSpaces = 0;
@@ -41,3 +43,4 @@ int main()
 	cout << "String with spaces replaced with %20 : " << str << endl;
 	return 0;
 }
+
