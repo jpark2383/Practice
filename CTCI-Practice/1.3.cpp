@@ -4,6 +4,8 @@
 
 using namespace std;
 
+/* Checks if a string is a permutation of another */
+
 //O(N) runtime O(N) space
 bool isPermutation(string s1, string s2)
 {
