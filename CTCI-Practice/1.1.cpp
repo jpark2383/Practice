@@ -4,6 +4,8 @@
 
 using namespace std;
 
+/* Checks if there are duplicates in a string */
+
 //O(n) runtime and O(1) space 
 bool isUnique(string s)
 {
